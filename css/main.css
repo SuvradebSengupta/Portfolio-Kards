@@ -72,7 +72,7 @@ html, body {
 body {
 	background: #151515;
 	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	line-height: 3rem;
 	color: #6e6e6e;
 }
@@ -945,9 +945,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li {
 	height: .6rem;
-	background: #a1a1a1;
+	/*background: #a1a1a1;*/
 	width: 100%;
-	margin-bottom: 6rem;
+	margin-bottom: 3rem;
 	padding: 0;
 	position: relative;
 }
@@ -1095,11 +1095,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	/*background: #000000;
 	min-width: 220px;
-	min-height: 66px;
+	min-height: 66px;*/
 	position: absolute;
-	left: 90px;
+	left: 8%;
 	top: 0;
 }
 header .logo {
@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	/*background: url("../images/logo.png") no-repeat center;*/
 	background-size: 92px 15px;
 }
 
@@ -1230,7 +1230,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px 18px 42px;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -1329,7 +1329,7 @@ header .logo a {
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
-	max-width: 900px;
+	max-width: 1000px;
 	margin-top: 0;
 	margin-bottom: .6rem;
 	margin-left: auto;
@@ -1347,7 +1347,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-medium", sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1504,8 +1504,8 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 11rem;
+	width: 10rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
@@ -1806,6 +1806,7 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	opacity: 0.8;
 }
 
 #portfolio .overlay {
